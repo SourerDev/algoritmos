@@ -11,6 +11,7 @@ function twoSum(nums, target) {
   return [];
 }
 
-const NUMS = []
+const NUMS = [2, 7, 11, 15]
 const TARGET = 9
-twoSum([2, 7, 11, 15], 9);
+twoSum(NUMS, TARGET);
+console.log(twoSum(NUMS, TARGET))
