@@ -14,4 +14,5 @@ function twoSum(nums, target) {
 const NUMS = [2, 7, 11, 15]
 const TARGET = 9
 twoSum(NUMS, TARGET);
-console.log(twoSum(NUMS, TARGET))
+
+export default twoSum
