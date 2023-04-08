@@ -2,7 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
-export default function(nums) {
+export default function maximumSubarray(nums) {
     let maxSum = nums[0]
     let curSum = 0
 
