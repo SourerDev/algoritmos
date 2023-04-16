@@ -1,18 +1,24 @@
-## Contains Duplicate 
+# Contains Duplicate
+
 Dada una matriz de enteros nums, devuelve verdadero si algún valor aparece al menos dos veces en la matriz, y devuelve falso si cada elemento es distinto.
 
-#### Ejemplo 1:
-```
+## Ejemplo 1
+
+```text
 Input: nums = [1,2,3,1]
 Output: true
 ```
-#### Ejemplo 2:
-```
+
+## Ejemplo 2
+
+```text
 Input: nums = [1,2,3,4]
 Output: false
 ```
-#### Ejemplo 3:
-```
+
+## Ejemplo 3
+
+```text
 Input: nums = [1,1,1,3,3,4,3,2,4,2]
 Output: true
 ```
