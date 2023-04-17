@@ -1,22 +1,22 @@
 import containsDuplicate from "./main";
 
 describe("containsDuplicate", () => {
-    it("Debería devolver true si hay un número duplicado en la matriz", () => {
+    it("Should return true if there is a duplicated number in the array", () => {
       const nums = [1, 2, 3, 1];
       expect(containsDuplicate(nums)).toBe(true);
     });
   
-    it("Debería devolver true si hay varios números duplicados en la matriz", () => {
+    it("Should return true if there are multiple duplicated numbers in the array", () => {
       const nums = [1, 2, 3, 1, 4, 5, 3];
       expect(containsDuplicate(nums)).toBe(true);
     });
   
-    it("Debería devolver false si no hay números duplicados en la matriz", () => {
+    it("Should return false if there are no duplicated numbers in the array", () => {
       const nums = [1, 2, 3, 4, 5];
       expect(containsDuplicate(nums)).toBe(false);
     });
   
-    it("Debería devolver false si la matriz está vacía", () => {
+    it("Should return false if the array is empty", () => {
       const nums = [];
       expect(containsDuplicate(nums)).toBe(false);
     });
