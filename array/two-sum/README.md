@@ -28,4 +28,10 @@ Salida: [0,1]
 
 Este es un problema de programación muy común que se puede resolver utilizando un algoritmo de complejidad O(n).
 
+## Solución
+
+---
+
+**Run Test** `npm test two-sum.test.js`
+
 [LeetCode](https://leetcode.com/problems/two-sum/)
