@@ -1,34 +1,34 @@
 # Two sum
 
-Dado un array de números enteros nums y un número entero target, devuelve los índices de los dos números en el array nums que suman target.
-Se puede asumir que cada entrada tiene exactamente una solución y que no se puede utilizar el mismo elemento dos veces.
-Se puede devolver la respuesta en cualquier orden.
+Given an array of integers ` nums ` and an integer ` target `, return indices of the two numbers such that they add up to ` target `.
 
-## Ejemplo 1
+You may assume that each input would have **exactly one solution**, and you may not use the same element twice.
 
-```text
-Entrada: nums = [2,7,11,15], target = 9
-Salida: [0,1]
-Explicación: Ya que nums[0] + nums[1] == 9, se devuelve [0, 1].
-```
+You can return the answer in any order.
 
-## Ejemplo 2
+**Example 1:**
 
 ```text
-Entrada: nums = [3,2,4], target = 6
-Salida: [1,2]
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 ```
 
-## Ejemplo 3
+**Example 2:**
 
 ```text
-Entrada: nums = [3,3], target = 6
-Salida: [0,1]
+Input: nums = [3,2,4], target = 6
+Output: [1,2]
 ```
 
-Este es un problema de programación muy común que se puede resolver utilizando un algoritmo de complejidad O(n).
+**Example 3:**
 
-## Solución
+```text
+Input: nums = [3,3], target = 6
+Output: [0,1]
+```
+
+## Solution
 
 ---
 
