@@ -1,39 +1,46 @@
 # Find Minimum in Rotated Sorted Array
 
-Supongamos que una matriz de longitud n ordenada de forma ascendente se gira entre 1 y n veces. Por ejemplo, la matriz `nums = [0,1,2,4,5,6,7]` podría convertirse en:
+Suppose an array of length ` n ` sorted in ascending order is **rotated** between ` 1 ` and ` n ` times. For example, the array ` nums = [0,1,2,4,5,6,7] ` might become:
+
+- ` [4,5,6,7,0,1,2] ` if it was rotated ` 4 ` times.
+- ` [0,1,2,4,5,6,7] ` if it was rotated ` 7 ` times.
+
+Notice that **rotating** an array ` [a[0], a[1], a[2], ..., a[n-1]] ` 1 time results in the array ` [a[n-1], a[0], a[1], a[2], ..., a[n-2]] `.
+
+Given the sorted rotated array ` nums ` of **unique** elements, return the minimum element of this array.
+
+You must write an algorithm that runs in ` O(log n) ` time.
+
+**Example 1:**
 
 ```text
-[4,5,6,7,0,1,2] si se gira 4 veces.
-[0,1,2,4,5,6,7] si se gira 7 veces.
+Input: nums = [3,4,5,1,2]
+Output: 1
+Explanation: The original array was [1,2,3,4,5] rotated 3 times.
 ```
 
-Observa que girar una matriz `[a[0], a[1], a[2], ..., a[n-1]]` 1 vez da como resultado la matriz `[a[n-1], a[0], a[1], a[2], ..., a[n-2]]`.
-
-Dada la matriz rotada ordenada nums de elementos únicos, devuelva el elemento mínimo de esta matriz.
-Debes escribir un algoritmo que se ejecute en tiempo O(log n).
-
-## Ejemplo 1
+**Example 2:**
 
 ```text
-Entrada: nums = [3,4,5,1,2]
-Salida: 1
-Explicación: El array original era [1,2,3,4,5] rotado 3 veces.
+Input: nums = [4,5,6,7,0,1,2]
+Output: 0
+Explanation: The original array was [0,1,2,4,5,6,7] and it was rotated 4 times.
 ```
 
-## Ejemplo 2
+**Example 3:**
 
 ```text
-Entrada: nums = [4,5,6,7,0,1,2]
-Salida: 0
-Explicación: El array original era [0,1,2,4,5,6,7] y fue rotado 4 veces.
+Input: nums = [11,13,15,17]
+Output: 11
+Explanation: The original array was [11,13,15,17] and it was rotated 4 times. 
 ```
 
-## Ejemplo 3
+---
 
-```text
-Entrada: nums = [11,13,15,17]
-Salida: 11
-Explicación: El array original era [11,13,15,17] y fue rotado 4 veces.
-```
+## Solution
+
+...
+
+**Run Test** `npm test find-min.test.js`
 
 [LeetCode](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
