@@ -1,29 +1,37 @@
 # Maximum Subarray
 
-Dada una matriz de enteros nums, encontrar la submatriz con la mayor suma, y devuelve su suma.
+Given an integer array ` nums `, find the subarray with the largest sum, and return *its sum*.
 
-## Ejemplo 1
-
-```text
-Entrada: nums = [-2,1,-3,4,-1,2,1,-5,4]
-Salida: 6
-Explicación: La submatriz [4,-1,2,1] tiene la mayor suma 6.
-```
-
-## Ejemplo 2
+**Example 1:**
 
 ```text
-Entrada: nums = [1]
-Salida: 1
-Explicación: La submatriz [1] tiene la mayor suma 1.
+Input: nums = [-2,1,-3,4,-1,2,1,-5,4]
+Output: 6
+Explanation: The subarray [4,-1,2,1] has the largest sum 6.
 ```
 
-## Ejemplo 3
+**Example 2:**
 
 ```text
-Entrada: nums = [5,4,-1,7,8]
-Salida: 23
-Explicación: La submatriz [5,4,-1,7,8] tiene la mayor suma 23.
+Input: nums = [1]
+Output: 1
+Explanation: The subarray [1] has the largest sum 1.
 ```
+
+**Example 3:**
+
+```text
+Input: nums = [5,4,-1,7,8]
+Output: 23
+Explanation: The subarray [5,4,-1,7,8] has the largest sum 23.
+```
+
+---
+
+## Solution
+
+...
+
+**Run Test** `npm test maximum-subarray.test.js`
 
 [LeetCode](https://leetcode.com/problems/maximum-subarray/)
