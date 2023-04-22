@@ -1,23 +1,31 @@
 # Maximum Product Subarray
 
-Dada una matriz de enteros nums, encontrar una submatriz que tenga el producto mayor, y devuelve el producto.
+Given an integer array ` nums `, find a subarray that has the largest product, and return the product.
 
-Los casos de prueba se generan de forma que la respuesta quepa en un entero de 32 bits.
+The test cases are generated so that the answer will fit in a **32-bit** integer.
 
-## Ejemplo 1
-
-```text
-Entrada: nums = [2,3,-2,4]
-Salida: 6
-Explicación: [2,3] tiene el mayor producto 6.
-```
-
-## Ejemplo 2
+**Example 1:**
 
 ```text
-Entrada: nums = [-2,0,-1]
-Salida: 0
-Explicación: El resultado no puede ser 2, porque [-2,-1] no es una submatriz.
+Input: nums = [2,3,-2,4]
+Output: 6
+Explanation: [2,3] has the largest product 6.
 ```
+
+**Example 2:**
+
+```text
+Input: nums = [-2,0,-1]
+Output: 0
+Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
+```
+
+---
+
+## Solution
+
+...
+
+**Run Test** `npm test max-product.test.js`
 
 [LeetCode](https://leetcode.com/problems/maximum-product-subarray/)
