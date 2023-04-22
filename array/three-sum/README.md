@@ -1,35 +1,44 @@
 # Three Sum
 
-Dada una matriz de enteros nums, devuelve todas las tripletas `[nums[i], nums[j], nums[k]]` tales que `i != j`, `i != k`, y `j != k`, y `nums[i] + nums[j] + nums[k] == 0.`
-Tenga en cuenta que el conjunto de soluciones no debe contener tripletas duplicadas.
+Given an integer array nums , return all the triplets ` [nums[i], nums[j], nums[k]] ` such that ` i != j `, ` i != k `, and ` j != k `, and ` nums[i] + nums[j] + nums[k] == 0 `.
 
-## Ejemplo 1
+Notice that the solution set must not contain duplicate triplets.
+
+**Example 1:**
 
 ```text
-Entrada: nums = [-1,0,1,2,-1,-4]
-Salida: [[-1,-1,2],[-1,0,1]]
-Explicación: 
+Input: nums = [-1,0,1,2,-1,-4]
+Output: [[-1,-1,2],[-1,0,1]]
+Explanation: 
 nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0.
-números[1] + números[2] + números[4] = 0 + 1 + (-1) = 0.
-números[0] + números[3] + números[4] = (-1) + 2 + (-1) = 0.
-Las tripletas distintas son [-1,0,1] y [-1,-1,2].
-Observa que el orden de la salida y el orden de las tripletas no importa.
+nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0.
+nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0.
+The distinct triplets are [-1,0,1] and [-1,-1,2].
+Notice that the order of the output and the order of the triplets does not matter.
 ```
 
-## Ejemplo 2
+**Example 2:**
 
 ```text
-Entrada: números = [0,1,1]
-Salida: []
-Explicación: La única tripleta posible no suma 0.
+Input: nums = [0,1,1]
+Output: []
+Explanation: The only possible triplet does not sum up to 0.
 ```
 
-## Ejemplo 3
+**Example 3**:
 
 ```text
-Entrada: nums = [0,0,0]
-Salida: [[0,0,0]]
-Explicación: El único triplete posible suma 0.
+Input: nums = [0,0,0]
+Output: [[0,0,0]]
+Explanation: The only possible triplet sums up to 0.
 ```
+
+---
+
+## Solution
+
+...
+
+**Run Test** `npm test three-sum.test.js`
 
 [LeetCode](https://leetcode.com/problems/3sum/)
