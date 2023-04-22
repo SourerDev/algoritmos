@@ -28,3 +28,13 @@ Output: -1
 Input: nums = [1], target = 0
 Output: -1
 ```
+
+---
+
+## Solution
+
+...
+
+**Run Test** `npm test search.test.js`
+
+[LeetCode](https://leetcode.com/problems/search-in-rotated-sorted-array/)
