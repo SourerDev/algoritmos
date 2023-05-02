@@ -32,8 +32,30 @@ Output: [0,1]
 
 ## Solution
 
-...
+the ` twoSum ` function takes an array ` nums ` and a ` target ` value as **input**, and **returns an array** with the indices of the two numbers whose sum is equal to the value of ` target `.
 
+### How it Works?
+
+The function creates an empty `Map` object and iterates through the `nums` array using a `for` loop. In each iteration of the loop, the function calculates the complement of the current number (i.e., the difference between **target** and **the current number**) and checks if the complement exists in the `Map` object.
+
+If the complement already exists in the `Map` object, the function returns an array with the indices of the complement and the current number.
+
+If the complement does not exist in the `Map` object, the function saves the current number and its index in the `Map` object for later use.
+
+If the function does not find a pair of numbers whose sum is equal to the value `of target`, it returns an empty array.
+
+**Example Usage:**
+
+```js
+const nums = [2, 7, 11, 15];
+const target = 9;
+const result = twoSum(nums, target);
+console.log(result); // [0, 1]
+```
+
+In this example, the nums array contains the numbers [2, 7, 11, 15] and the target value is 9. The twoSum function returns [0, 1], which are the indices of the numbers 2 and 7, since 2 + 7 = 9.
+
+---
 **Run Test** `npm test two-sum.test.js`
 
 [LeetCode](https://leetcode.com/problems/two-sum/)
