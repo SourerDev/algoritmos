@@ -34,6 +34,8 @@ Output: [0,1]
 
 the ` twoSum ` function takes an array ` nums ` and a ` target ` value as **input**, and **returns an array** with the indices of the two numbers whose sum is equal to the value of ` target `.
 
+![two-sum-A](../../assets/images/two-sum-A.png)
+
 ### How it Works?
 
 The function creates an empty `Map` object and iterates through the `nums` array using a `for` loop. In each iteration of the loop, the function calculates the complement of the current number (i.e., the difference between **target** and **the current number**) and checks if the complement exists in the `Map` object.
