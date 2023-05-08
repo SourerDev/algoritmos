@@ -34,8 +34,6 @@ Output: [0,1]
 
 the ` twoSum ` function takes an array ` nums ` and a ` target ` value as **input**, and **returns an array** with the indices of the two numbers whose sum is equal to the value of ` target `.
 
-![two-sum-A](../../assets/images/two-sum-A.png)
-
 ### How it Works?
 
 The function creates an empty `Map` object and iterates through the `nums` array using a `for` loop. In each iteration of the loop, the function calculates the complement of the current number (i.e., the difference between **target** and **the current number**) and checks if the complement exists in the `Map` object.
@@ -49,13 +47,15 @@ If the function does not find a pair of numbers whose sum is equal to the value 
 **Example Usage:**
 
 ```js
-const nums = [2, 7, 11, 15];
+const nums = [2, 11, 7, 15];
 const target = 9;
 const result = twoSum(nums, target);
-console.log(result); // [0, 1]
+console.log(result); // [0, 2]
 ```
 
-In this example, the nums array contains the numbers [2, 7, 11, 15] and the target value is 9. The twoSum function returns [0, 1], which are the indices of the numbers 2 and 7, since 2 + 7 = 9.
+In this example, the nums array contains the numbers [2, 11, 7, 15] and the target value is 9. The twoSum function returns [0, 2], which are the indices of the numbers 2 and 7, since 2 + 7 = 9.
+
+![two-sum-A](../../assets/images/two-sum-A.png)
 
 ---
 **Run Test** `npm test two-sum.test.js`
